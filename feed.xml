@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+	<title>Todd Motto</title>
+	<link href="feed.xml" rel="self" />
+	<link href="" />
+	<updated>2013-11-29T17:47:18+01:00</updated>
+	<id>http://toddmotto.com</id>
+	<author>
+		<name>Help!Bibtic Hosting</name>
+		<email>help@bibtic.cat</email>
+	</author>
+
+	
+	<entry>
+		<title>Configurar email a Thunderbird</title>
+		<link href="/configurar-email-thunderbird" />
+		<updated>2013-11-30T00:00:00+01:00</updated>
+		<id>http://toddmotto.com/configurar-email-thunderbird</id>
+		<content type="html">&lt;p&gt;Començarem obrint el Thunderbird:&lt;/p&gt;
+
+&lt;p&gt;S&#39;obre clicant &lt;code&gt;Inici &amp;gt; Programes &amp;gt; Mozilla Thunderbird &amp;gt; Thunderbird&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/configurar-email-thunderbird-1.png&quot; alt=&quot;configurar-email-thunderbird-1&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Una vegada carregat el programa, accedim al menú &lt;code&gt;Arxiu &amp;gt; Nou &amp;gt; Compte de correu&lt;/code&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/configurar-email-thunderbird-2.png&quot; alt=&quot;configurar-email-thunderbird-2&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Ens apareixerà la següent finestra, en la qual, tenim que omplir els camps amb el &lt;strong&gt;Nom&lt;/strong&gt;, &lt;strong&gt;Direcció de correu&lt;/strong&gt;, i &lt;strong&gt;Contrasenya&lt;/strong&gt;, premem &quot;Continuar&quot;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/configurar-email-thunderbird-3.png&quot; alt=&quot;configurar-email-thunderbird-3&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Ens apareixerà la següent pantalla, on reconeixerà el servidor de sortida &lt;code&gt;mail.elseudomini.com&lt;/code&gt; i el servidor d&#39;entrada &lt;code&gt;mail.elseudomini.com&lt;/code&gt;. Es molt important que en SMTP consti com a &quot;Ninguno&quot; i que en IMAP consti STARTTLS.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/configurar-email-thunderbird-4.png&quot; alt=&quot;configurar-email-thunderbird-4&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;A continuació premem &quot;editar&quot; i modifiquem el nom d&#39;usuari. Escribint l&#39;usuari amb el que es va configurar el compte de correu (exemple@elseudomini.com).&lt;/p&gt;
+
+&lt;p&gt;Un cop canviat els parametres desitjats premem &quot;Crear cuenta&quot;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/configurar-email-thunderbird-5.png&quot; alt=&quot;configurar-email-thunderbird-5&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Arribats aquest punt, sortirà una pantalla mostrant una advertència, en la qual, hem de seleccionar &quot;Entiendo los riesgos&quot; i fem &quot;click&quot; a Crear compte i haurem finalitzat amb la configuració del correu.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/configurar-email-thunderbird-6.png&quot; alt=&quot;configurar-email-thunderbird-6&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Una vegada tingui creada la compte de correu, hauria d&#39;anar a &quot;Herramientas&quot;, &quot;configuración de las cuentas&quot; i seleccionar &quot;servidor de salida (SMTP)&quot;, on haurà d&#39;assegurar-se que l&#39;usuari es correcte i el mètode d&#39;identificació de la contrasenya es de manera insegura.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/configurar-email-thunderbird-7.png&quot; alt=&quot;configurar-email-thunderbird-7&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Diferències entre POP3 i IMAP</title>
+		<link href="/diferencies-pop3-vs-imap" />
+		<updated>2013-11-26T00:00:00+01:00</updated>
+		<id>http://toddmotto.com/diferencies-pop3-vs-imap</id>
+		<content type="html">&lt;p&gt;Normalment, la gent té per costum utilitzar el protocol POP3 per consultar el seu correu. IMAP realitza la mateixa funció però és més eficient, més ràpid i no satura el servidor de correu. Un altre avantatge és que vostè disposarà d&#39;una còpia dels seus correus al servidor i podrà consultar-los alternativament des del servei webmail.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Configuració Email i accés al Webmail</title>
+		<link href="/configuracio-email-acces-webmail" />
+		<updated>2013-11-26T00:00:00+01:00</updated>
+		<id>http://toddmotto.com/configuracio-email-acces-webmail</id>
+		<content type="html">&lt;h3&gt;Configuració Email&lt;/h3&gt;
+
+&lt;p&gt;Configura la bústia de correu amb les següents dades a qualsevol client de correu (Mail, Microsoft Outlook, &lt;a href=&quot;/configurar-email-thunderbird&quot;&gt;Thunderbird&lt;/a&gt;) :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Usuari&lt;/strong&gt;: &lt;code&gt;exemple@elseudomini.com&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Servidor de correu sortint (SMTP)&lt;/strong&gt;: &lt;code&gt;elseudomini.com&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Servidor de correu entrant (POP/IMAP/IMAP SSL)&lt;/strong&gt;: &lt;code&gt;elseudomini.com&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Contrasenya&lt;/strong&gt;: &lt;code&gt;*******&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;Accés al WebMail&lt;/h3&gt;
+
+&lt;p&gt;Per accedir a la bústia desde una interfície web, només has de visitar la següent URL: `http://webmail.elseudomini.com&#39; , inicia la sessió amb l&#39;adreça de correu i contrasenya.&lt;/p&gt;
+</content>
+	</entry>
+	
+
+</feed>
