@@ -444,13 +444,13 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/agusti\/jekyll\/help-bibtichosting-com\/_source\/sass\/modules\/_defaults\.scss}line{font-family:\000037}}
 html {
   font-size: 62.5%;
-  background: #39464f;
+  background: #2f2f2f;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/agusti\/jekyll\/help-bibtichosting-com\/_source\/sass\/modules\/_defaults\.scss}line{font-family:\0000311}}
 body {
   font: 300 14px/1.6 'Droid Sans', 'Helvetica Neue', Helvetica, Arial;
-  color: #39464f;
+  color: #2f2f2f;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/agusti\/jekyll\/help-bibtichosting-com\/_source\/sass\/modules\/_defaults\.scss}line{font-family:\0000315}}
@@ -475,7 +475,7 @@ a,
 a:hover,
 a:visited,
 a:active {
-  color: #39464f;
+  color: #2f2f2f;
   text-decoration: none;
 }
 
@@ -498,18 +498,81 @@ h4 {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/agusti\/jekyll\/help-bibtichosting-com\/_source\/sass\/modules\/_defaults\.scss}line{font-family:\0000351}}
 h3 {
   border-bottom: 1px solid #eee;
-  padding: 0 0 15px;
+  padding: 1em 0 .6em;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/agusti\/jekyll\/help-bibtichosting-com\/_source\/sass\/modules\/_defaults\.scss}line{font-family:\0000356}}
+h4 {
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/agusti\/jekyll\/help-bibtichosting-com\/_source\/sass\/modules\/_defaults\.scss}line{font-family:\0000359}}
 code, kbd, pre, samp {
   font-family: 'Droid Sans Mono', monospace, serif;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/agusti\/jekyll\/help-bibtichosting-com\/_source\/sass\/modules\/_defaults\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/agusti\/jekyll\/help-bibtichosting-com\/_source\/sass\/modules\/_defaults\.scss}line{font-family:\0000363}}
 hr {
   border: none;
-  border-bottom: 1px solid #bac5cd;
+  border-bottom: 1px solid #afafaf;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/agusti\/jekyll\/help-bibtichosting-com\/_source\/sass\/modules\/_defaults\.scss}line{font-family:\0000367}}
+table {
+  border: 1px solid #dddddd;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/agusti\/jekyll\/help-bibtichosting-com\/_source\/sass\/modules\/_defaults\.scss}line{font-family:\0000379}}
+table > thead > tr > th,
+table > tbody > tr > th,
+table > tfoot > tr > th,
+table > thead > tr > td,
+table > tbody > tr > td,
+table > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.428571429;
+  vertical-align: top;
+  border-top: 1px solid #dddddd;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/agusti\/jekyll\/help-bibtichosting-com\/_source\/sass\/modules\/_defaults\.scss}line{font-family:\0000386}}
+table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dddddd;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/agusti\/jekyll\/help-bibtichosting-com\/_source\/sass\/modules\/_defaults\.scss}line{font-family:\0000391}}
+code {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #2f2f2f;
+  white-space: nowrap;
+  background-color: #ffe5dd;
+  border-radius: 4px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/agusti\/jekyll\/help-bibtichosting-com\/_source\/sass\/modules\/_defaults\.scss}line{font-family:\0000399}}
+kbd {
+  padding: 0.1em 0.6em;
+  border: 1px solid #ccc;
+  font-size: 11px;
+  font-family: Arial,Helvetica,sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  -moz-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2), 0 0 0 2px white inset;
+  -webkit-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2), 0 0 0 2px white inset;
+  box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2), 0 0 0 2px white inset;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 0 0.1em;
+  text-shadow: 0 1px 0 #fff;
+  line-height: 1.4;
+  white-space: nowrap;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/agusti\/jekyll\/help-bibtichosting-com\/_source\/sass\/partials\/_sidebar\.scss}line{font-family:\000031}}
@@ -518,54 +581,66 @@ hr {
   text-align: center;
   width: 320px;
   color: white;
-  background: #39464f;
+  background-image: -webkit-gradient(radial, 50% 0%, 0, 50% 0%, 80, color-stop(40%, #434343), color-stop(80%, #2f2f2f));
+  background-image: -webkit-radial-gradient(top center, 80% 20%, #434343 40%, #2f2f2f 80%);
+  background-image: -moz-radial-gradient(top center, 80% 20%, #434343 40%, #2f2f2f 80%);
+  background-image: -o-radial-gradient(top center, 80% 20%, #434343 40%, #2f2f2f 80%);
+  background-image: radial-gradient(top center, 80% 20%, #434343 40%, #2f2f2f 80%);
   position: fixed;
   top: 0px;
   bottom: 0px;
   left: 0px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/agusti\/jekyll\/help-bibtichosting-com\/_source\/sass\/partials\/_sidebar\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/agusti\/jekyll\/help-bibtichosting-com\/_source\/sass\/partials\/_sidebar\.scss}line{font-family:\0000310}}
 .sidebar a {
   color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/agusti\/jekyll\/help-bibtichosting-com\/_source\/sass\/partials\/_sidebar\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/agusti\/jekyll\/help-bibtichosting-com\/_source\/sass\/partials\/_sidebar\.scss}line{font-family:\0000314}}
 .sidebar p a {
   border-bottom: 2px solid rgba(255, 255, 255, 0.2);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/agusti\/jekyll\/help-bibtichosting-com\/_source\/sass\/partials\/_sidebar\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/agusti\/jekyll\/help-bibtichosting-com\/_source\/sass\/partials\/_sidebar\.scss}line{font-family:\0000319}}
 .sidebar__module {
   padding: 25px 25px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/agusti\/jekyll\/help-bibtichosting-com\/_source\/sass\/partials\/_sidebar\.scss}line{font-family:\0000319}}
-.sidebar__module .logo {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/agusti\/jekyll\/help-bibtichosting-com\/_source\/sass\/partials\/_sidebar\.scss}line{font-family:\0000321}}
+.sidebar__module .logo a {
+  font-family: 'Source Sans Pro', sans-serif;
   margin: 1rem 0;
+  font-weight: 300;
+  color: #ff855d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/agusti\/jekyll\/help-bibtichosting-com\/_source\/sass\/partials\/_sidebar\.scss}line{font-family:\0000326}}
+.sidebar__module .logo a strong {
+  color: #ff5f2a;
+  font-weight: 900;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/agusti\/jekyll\/help-bibtichosting-com\/_source\/sass\/partials\/_sidebar\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/agusti\/jekyll\/help-bibtichosting-com\/_source\/sass\/partials\/_sidebar\.scss}line{font-family:\0000332}}
 .sidebar__icon {
   font-size: 24px;
   margin: 0 8px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/agusti\/jekyll\/help-bibtichosting-com\/_source\/sass\/partials\/_sidebar\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/agusti\/jekyll\/help-bibtichosting-com\/_source\/sass\/partials\/_sidebar\.scss}line{font-family:\0000337}}
 .sidebar__nav ul {
   overflow: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/agusti\/jekyll\/help-bibtichosting-com\/_source\/sass\/partials\/_sidebar\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/agusti\/jekyll\/help-bibtichosting-com\/_source\/sass\/partials\/_sidebar\.scss}line{font-family:\0000340}}
 .sidebar__nav li {
   float: left;
   width: 50%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/agusti\/jekyll\/help-bibtichosting-com\/_source\/sass\/partials\/_sidebar\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/agusti\/jekyll\/help-bibtichosting-com\/_source\/sass\/partials\/_sidebar\.scss}line{font-family:\0000343}}
 .sidebar__nav li a {
   display: block;
   padding: 5px;
-  background: #2e3940;
+  background: #222222;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/agusti\/jekyll\/help-bibtichosting-com\/_source\/sass\/partials\/_sidebar\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/agusti\/jekyll\/help-bibtichosting-com\/_source\/sass\/partials\/_sidebar\.scss}line{font-family:\0000347}}
 .sidebar__nav li a:hover {
-  background: #2a343a;
+  background: #161616;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/agusti\/jekyll\/help-bibtichosting-com\/_source\/sass\/partials\/_main\.scss}line{font-family:\000031}}
@@ -605,22 +680,22 @@ hr {
  */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/agusti\/jekyll\/help-bibtichosting-com\/_source\/sass\/modules\/_misc\.scss}line{font-family:\0000315}}
 ::selection {
-  background: #fe57a1;
-  color: white;
+  background: #d2ff23;
+  color: #222222;
   text-shadow: none;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/agusti\/jekyll\/help-bibtichosting-com\/_source\/sass\/modules\/_misc\.scss}line{font-family:\0000320}}
 ::-moz-selection {
-  background: #fe57a1;
-  color: white;
+  background: #d2ff23;
+  color: #222222;
   text-shadow: none;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/agusti\/jekyll\/help-bibtichosting-com\/_source\/sass\/modules\/_misc\.scss}line{font-family:\0000325}}
 ::-webkit-selection {
-  background: #fe57a1;
-  color: white;
+  background: #d2ff23;
+  color: #222222;
   text-shadow: none;
 }
 
@@ -640,7 +715,7 @@ hr {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/agusti\/jekyll\/help-bibtichosting-com\/_source\/sass\/modules\/_app\.scss}line{font-family:\0000311}}
 .posts__list li a:hover {
-  color: #242c31;
+  color: #161616;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/agusti\/jekyll\/help-bibtichosting-com\/_source\/sass\/modules\/_app\.scss}line{font-family:\0000317}}
@@ -663,7 +738,7 @@ hr {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/agusti\/jekyll\/help-bibtichosting-com\/_source\/sass\/modules\/_app\.scss}line{font-family:\0000329}}
 .carbon--module {
-  background: #2e3940;
+  background: #222222;
   padding: 0;
   width: 100%;
   position: absolute;
@@ -707,13 +782,13 @@ hr {
   *zoom: 1;
   padding: 10px 25px;
   margin: 0 15px 0 0;
-  background: #39464f;
+  background: #2f2f2f;
   color: white;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/agusti\/jekyll\/help-bibtichosting-com\/_source\/sass\/modules\/_app\.scss}line{font-family:\0000372}}
 .download-box a:hover,
 .download-details a:hover {
-  background: #2e3940;
+  background: #222222;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/agusti\/jekyll\/help-bibtichosting-com\/_source\/sass\/modules\/_app\.scss}line{font-family:\0000378}}
@@ -779,8 +854,8 @@ hr {
  */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/agusti\/jekyll\/help-bibtichosting-com\/_source\/sass\/modules\/_app\.scss}line{font-family:\00003128}}
 .pagination {
-  background: #39464f;
-  color: #708798;
+  background: #2f2f2f;
+  color: #6f6f6f;
   overflow: hidden;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/agusti\/jekyll\/help-bibtichosting-com\/_source\/sass\/modules\/_app\.scss}line{font-family:\00003133}}
@@ -796,7 +871,7 @@ hr {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/agusti\/jekyll\/help-bibtichosting-com\/_source\/sass\/modules\/_app\.scss}line{font-family:\00003140}}
 .pagination a:hover {
-  background: #2e3940;
+  background: #222222;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/agusti\/jekyll\/help-bibtichosting-com\/_source\/sass\/modules\/_app\.scss}line{font-family:\00003145}}
@@ -953,7 +1028,7 @@ hr {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/agusti\/jekyll\/help-bibtichosting-com\/_source\/sass\/vendor\/_external\.scss}line{font-family:\000031}}
 .highlight {
-  background: #39464f;
+  background: #2f2f2f;
   color: #F6F3E8;
   padding: 35px;
   margin: 30px 0;

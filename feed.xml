@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-	<title>Todd Motto</title>
-	<link href="feed.xml" rel="self" />
-	<link href="" />
-	<updated>2013-11-29T18:04:44+01:00</updated>
-	<id>http://toddmotto.com</id>
+	<title>Help!Bibtic Hosting</title>
+	<link href="http://help.bibtichosting.com/feed.xml" rel="self" />
+	<link href="http://help.bibtichosting.com/" />
+	<updated>2013-12-04T18:05:08+01:00</updated>
+	<id>http://help.bibtichosting.com/</id>
 	<author>
 		<name>Help!Bibtic Hosting</name>
 		<email>help@bibtichosting.com</email>
@@ -16,52 +16,428 @@
 		<title>Configurar email a Thunderbird</title>
 		<link href="/configurar-email-thunderbird" />
 		<updated>2013-11-30T00:00:00+01:00</updated>
-		<id>http://toddmotto.com/configurar-email-thunderbird</id>
-		<content type="html">&lt;p&gt;Començarem obrint el Thunderbird:&lt;/p&gt;
+		<id>http://help.bibtichosting.com//configurar-email-thunderbird</id>
+		<content type="html">&lt;p&gt;Per a configurar el correu electrònic en Thunderbird, client de correu electrònic de codi obert distribuït per la Fundació Mozilla.&lt;/p&gt;
 
-&lt;p&gt;S&#39;obre clicant &lt;code&gt;Inici &amp;gt; Programes &amp;gt; Mozilla Thunderbird &amp;gt; Thunderbird&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;Abans de configurar el correu, assegureu-vos que està connectat a internet (comprovi la seva connexió amb un navegador web, per exemple).&lt;/small&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/configurar-email-thunderbird-1.png&quot; alt=&quot;configurar-email-thunderbird-1&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Començarem obrint el programa:&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;p&gt;&lt;img src=&quot;http://help.bibtichosting.com//assets/img/posts/configurar-email-thunderbird-1.png&quot; alt=&quot;configurar-email-thunderbird-1&quot;&gt;&lt;/p&gt;
 
-&lt;p&gt;Una vegada carregat el programa, accedim al menú &lt;code&gt;Arxiu &amp;gt; Nou &amp;gt; Compte de correu&lt;/code&gt;:&lt;/p&gt;
+&lt;hr&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/configurar-email-thunderbird-2.png&quot; alt=&quot;configurar-email-thunderbird-2&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Una vegada carregat el programa, si és el primer cop que l&amp;#39;obrim apareix la següent pantalla, si no accedim per &lt;code&gt;Menú &amp;gt; Nou &amp;gt; Compte de correu&lt;/code&gt;.&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;p&gt;Com ja teniu compte de correu premeu el botó &lt;kbd&gt;Salta aquest pas i utilitza l&amp;#39;adreça electrònica que ja tinc&lt;/kbd&gt;:&lt;/p&gt;
 
-&lt;p&gt;Ens apareixerà la següent finestra, en la qual, tenim que omplir els camps amb el &lt;strong&gt;Nom&lt;/strong&gt;, &lt;strong&gt;Direcció de correu&lt;/strong&gt;, i &lt;strong&gt;Contrasenya&lt;/strong&gt;, premem &quot;Continuar&quot;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://help.bibtichosting.com//assets/img/posts/configurar-email-thunderbird-2.png&quot; alt=&quot;configurar-email-thunderbird-2&quot;&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/configurar-email-thunderbird-3.png&quot; alt=&quot;configurar-email-thunderbird-3&quot; /&gt;&lt;/p&gt;
+&lt;hr&gt;
 
-&lt;hr /&gt;
+&lt;p&gt;Ens apareixerà la següent finestra, amb els següents camps a omplir :&lt;/p&gt;
 
-&lt;p&gt;Ens apareixerà la següent pantalla, on reconeixerà el servidor de sortida &lt;code&gt;mail.elseudomini.com&lt;/code&gt; i el servidor d&#39;entrada &lt;code&gt;mail.elseudomini.com&lt;/code&gt;. Es molt important que en SMTP consti com a &quot;Ninguno&quot; i que en IMAP consti STARTTLS.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Nom&lt;/strong&gt;: nom que es mostra a la persona que reb el correu.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Adreça electrònica&lt;/strong&gt;: adreça de correu del compte que volem configurar.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Contrasenya&lt;/strong&gt;: ha d&amp;#39;introduir la contrasenya d&amp;#39;usuari assignat a aquest compte.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Recorda la contrasenya&lt;/strong&gt;: la casella ha d&amp;#39;estar marcada per que no ens demani la contrasenya cada cop que volem rebre correus.&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/configurar-email-thunderbird-4.png&quot; alt=&quot;configurar-email-thunderbird-4&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Un cop omplerts els camps premem &lt;kbd&gt;Continua&lt;/kbd&gt;&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;p&gt;&lt;img src=&quot;http://help.bibtichosting.com//assets/img/posts/configurar-email-thunderbird-3.png&quot; alt=&quot;configurar-email-thunderbird-3&quot;&gt;&lt;/p&gt;
 
-&lt;p&gt;A continuació premem &quot;editar&quot; i modifiquem el nom d&#39;usuari. Escribint l&#39;usuari amb el que es va configurar el compte de correu (exemple@elseudomini.com).&lt;/p&gt;
+&lt;hr&gt;
 
-&lt;p&gt;Un cop canviat els parametres desitjats premem &quot;Crear cuenta&quot;.&lt;/p&gt;
+&lt;p&gt;Llavors apareixerà la següent pantalla, on reconeixerà el servidor de sortida &lt;code&gt;elseudomini.com&lt;/code&gt; i el servidor d&amp;#39;entrada &lt;code&gt;elseudomini.com&lt;/code&gt;. &lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/configurar-email-thunderbird-5.png&quot; alt=&quot;configurar-email-thunderbird-5&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;En quant al tipus de compte recomanem seleccionar &lt;code&gt;IMAP&lt;/code&gt;, que ve seleccionat per defecte. &lt;a href=&quot;/diferencies-pop3-vs-imap&quot;&gt;Diferències entre POP3 i IMAP&lt;/a&gt;&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;p&gt;Si vol usar encriptació a l&amp;#39;hora d&amp;#39;enviar i rebre emails, verifiqui que en SMTP i en IMAP consti STARTTLS.&lt;/p&gt;
 
-&lt;p&gt;Arribats aquest punt, sortirà una pantalla mostrant una advertència, en la qual, hem de seleccionar &quot;Entiendo los riesgos&quot; i fem &quot;click&quot; a Crear compte i haurem finalitzat amb la configuració del correu.&lt;/p&gt;
+&lt;p&gt;Premem &lt;kbd&gt;Configuració manual&lt;/kbd&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/configurar-email-thunderbird-6.png&quot; alt=&quot;configurar-email-thunderbird-6&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://help.bibtichosting.com//assets/img/posts/configurar-email-thunderbird-4.png&quot; alt=&quot;configurar-email-thunderbird-4&quot;&gt;&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;hr&gt;
 
-&lt;p&gt;Una vegada tingui creada la compte de correu, hauria d&#39;anar a &quot;Herramientas&quot;, &quot;configuración de las cuentas&quot; i seleccionar &quot;servidor de salida (SMTP)&quot;, on haurà d&#39;assegurar-se que l&#39;usuari es correcte i el mètode d&#39;identificació de la contrasenya es de manera insegura.&lt;/p&gt;
+&lt;p&gt;En aquesta pantalla ens permet editar &lt;strong&gt;Nom de l&amp;#39;usuari&lt;/strong&gt;, el modifiquem escribint el compte de correu, per exemple &lt;code&gt;exemple@elseudomini.com&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/configurar-email-thunderbird-7.png&quot; alt=&quot;configurar-email-thunderbird-7&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Un cop modificat els parametres desitjats premem &lt;kbd&gt;Fet (D)&lt;/kbd&gt;&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;p&gt;&lt;img src=&quot;http://help.bibtichosting.com//assets/img/posts/configurar-email-thunderbird-5.png&quot; alt=&quot;configurar-email-thunderbird-5&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Arribats aquest punt, sortirà una pantalla mostrant una advertència de SSL, en la qual, hem de &lt;code&gt;marcar&lt;/code&gt; la casella &lt;strong&gt;Emmagatzema permanentment aquesta excepció&lt;/strong&gt; i premem &lt;kbd&gt;Confirma l&amp;#39;excepció de seguretat&lt;/kbd&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://help.bibtichosting.com//assets/img/posts/configurar-email-thunderbird-6.png&quot; alt=&quot;configurar-email-thunderbird-6&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Una vegada tingui creat el compte de correu, hauria d&amp;#39;enviar un email de prova per afegir el certificat de seguretat del servidor sortint.&lt;/p&gt;
+
+&lt;p&gt;Premem &lt;kbd&gt;Redacta&lt;/kbd&gt;, s&amp;#39;obra la finestra per redactar un nou correu. Redactem un correu i l&amp;#39;enviem.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://help.bibtichosting.com//assets/img/posts/configurar-email-thunderbird-7.png&quot; alt=&quot;configurar-email-thunderbird-7&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Sortirà una pantalla mostrant una advertència de SSL, en la qual, hem de &lt;code&gt;marcar&lt;/code&gt; la casella &lt;strong&gt;Emmagatzema permanentment aquesta excepció&lt;/strong&gt; i premem &lt;kbd&gt;Confirma l&amp;#39;excepció de seguretat&lt;/kbd&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://help.bibtichosting.com//assets/img/posts/configurar-email-thunderbird-8.png&quot; alt=&quot;configurar-email-thunderbird-8&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Ja hem finalitzat la configuració!&lt;/p&gt;
+
+&lt;p&gt;Si teniu més dubtes de l&amp;#39;aplicació podeu consultar l&amp;#39;&lt;a href=&quot;https://support.mozillamessaging.com/ca/home&quot;&gt;Ajuda del Thunderbird&lt;/a&gt;.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Configurar email per Mail de MAC OS</title>
+		<link href="/configurar-email-mac" />
+		<updated>2013-11-30T00:00:00+01:00</updated>
+		<id>http://help.bibtichosting.com//configurar-email-mac</id>
+		<content type="html">&lt;p&gt;&lt;small&gt;Abans de configurar el correu, assegureu-vos que està connectat a internet (comprovi la seva connexió amb un navegador web, per exemple).&lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;Arrenquem el MAIL des de la seva icona al DOCK o des de &lt;code&gt;FINDER &amp;gt; APLICACIONS &amp;gt; MAIL&lt;/code&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://help.bibtichosting.com//assets/img/posts/configurar-email-mac-1.png&quot; alt=&quot;configurar-email-mac-1&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Haurem de dirigir-nos a l&amp;#39;apartat de Mail i seleccionar l&amp;#39;opció &lt;code&gt;Preferences...&lt;/code&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://help.bibtichosting.com//assets/img/posts/configurar-email-mac-2.png&quot; alt=&quot;configurar-email-mac-2&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Una vegada obert el panell de &lt;em&gt;Preferences &amp;gt; Accounts&lt;/em&gt; haurem d&amp;#39;agregar un compte de correu, seleccionant el boto &lt;kbd&gt;+&lt;/kbd&gt; situat a la part inferior esquerra:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://help.bibtichosting.com//assets/img/posts/configurar-email-mac-3.png&quot; alt=&quot;configurar-email-mac-3&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2 id=&quot;toc_0&quot;&gt;Afegir nou compte de correu:&lt;/h2&gt;
+
+&lt;p&gt;Al següent apartat ens donarà opció d&amp;#39;afegir nou compte de correu:&lt;/p&gt;
+
+&lt;p&gt;És important mencionar que el programa &amp;quot;mail&amp;quot; realitza comprovacions constantment sobre les dades que ingressem i és possible que porti alguns minuts actualitzar un canvi, encara que no veiem res a la pantalla.&lt;/p&gt;
+
+&lt;p&gt;Per configurar el compte, completem les dades:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Nom&lt;/strong&gt;: nom que li apareixerà a la persona que rebi el correu.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Adreça de correu&lt;/strong&gt;: adreça de correu del compte que volem configurar,  per exemple &lt;code&gt;exemple@elseudomini.com&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Contrasenya&lt;/strong&gt;: col·loqui la contrasenya del seu compte de correu.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Un cop omplerts els camps premem &lt;kbd&gt;Continue&lt;/kbd&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://help.bibtichosting.com//assets/img/posts/configurar-email-mac-4.png&quot; alt=&quot;configurar-email-mac-4&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2 id=&quot;toc_1&quot;&gt;Servidor de correu entrant:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tipus de compte&lt;/strong&gt;: recomanem seleccionar &lt;code&gt;IMAP&lt;/code&gt;. &lt;em&gt;&lt;a href=&quot;/diferencies-pop3-vs-imap&quot;&gt;Diferències entre POP3 i IMAP&lt;/a&gt;&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Descripció&lt;/strong&gt;: escrigui el que vostè desitgi com a descripció del seu compte, per exemple &lt;code&gt;exemple@elseudomini.com&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Servidor entrant&lt;/strong&gt;: nom del servidor de recepció de correu. Haurà d&amp;#39;introduir &lt;code&gt;elseudomini.com&lt;/code&gt; tant si ha triat el tipus &lt;em&gt;IMAP&lt;/em&gt; com &lt;em&gt;POP3&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nom d&amp;#39;usuari&lt;/strong&gt;: ha d&amp;#39;utilitzar el compte de correu, per exemple &lt;code&gt;exemple@elseudomini.com&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Contrasenya&lt;/strong&gt;: ha d&amp;#39;introduir la contrasenya d&amp;#39;usuari que ha assignat a aquest compte.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Un cop omplerts els camps premem &lt;kbd&gt;Continue&lt;/kbd&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://help.bibtichosting.com//assets/img/posts/configurar-email-mac-5.png&quot; alt=&quot;configurar-email-mac-5&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2 id=&quot;toc_2&quot;&gt;SSL:&lt;/h2&gt;
+
+&lt;p&gt;Es possible segons la versió del seu mail, que li aparegui la següent pantalla sol·licitant si confiem en el certificat del servidor, premem &lt;kbd&gt;Connect&lt;/kbd&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://help.bibtichosting.com//assets/img/posts/configurar-email-mac-6.png&quot; alt=&quot;configurar-email-mac-6&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2 id=&quot;toc_3&quot;&gt;Servidor de correu sortint:&lt;/h2&gt;
+
+&lt;p&gt;A continuació ens apareixerà la finestra per a configurar el servidor de sortida:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Descripció&lt;/strong&gt;: escrigui el que vostè desitgi com a descripció del seu compte, per exemple &lt;code&gt;exemple@elseudomini.com&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Servidor de correu sortint (SMTP)&lt;/strong&gt;: Haurà d&amp;#39;introduir &lt;code&gt;elseudomini.com&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Utilitzar autenticació&lt;/strong&gt;: la casella ha d&amp;#39;estar marcada.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nom d&amp;#39;usuari&lt;/strong&gt;: és similar al correu entrant imap/pop3, ha utilitzar el compte de correu, per exemple &lt;code&gt;exemple@elseudomini.com&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Contrasenya&lt;/strong&gt;: la contrasenya del compte de correu, igual que per al correu entrant.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Un cop omplerts els camps premem &lt;kbd&gt;Continue&lt;/kbd&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://help.bibtichosting.com//assets/img/posts/configurar-email-mac-7.png&quot; alt=&quot;configurar-email-mac-7&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Si teniu més dubtes de l&amp;#39;aplicació podeu consultar el &lt;a href=&quot;http://www.apple.com/es/support/mac-apps/mail/&quot;&gt;support tècnic de Apple&lt;/a&gt;.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Configurar email a Android</title>
+		<link href="/configurar-email-android" />
+		<updated>2013-11-30T00:00:00+01:00</updated>
+		<id>http://help.bibtichosting.com//configurar-email-android</id>
+		<content type="html">&lt;p&gt;&lt;small&gt;Abans de configurar el correu, assegureu-vos que està connectat a internet (comprovi la seva connexió amb un navegador web, per exemple).&lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;Per a configurar el correu electrònic en un dispositiu Android, cal anar a aplicacions i premeu la icona de &lt;strong&gt;Correu electrònic&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://help.bibtichosting.com//assets/img/posts/configurar-email-android-1.png&quot; alt=&quot;configurar-email-android-1&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;A la següent pantalla, indicarem l&amp;#39;adreça i la contrasenya del seu correu, llavors premeu el boto &lt;kbd&gt;Següent&lt;/kbd&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://help.bibtichosting.com//assets/img/posts/configurar-email-android-2.png&quot; alt=&quot;configurar-email-android-2&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;El pas següent és seleccionar el protocol del servidor de correu, recomanem la configuració amb &lt;kbd&gt;IMAP&lt;/kbd&gt;. A BibticHosting li oferim accés per IMAP i POP3, &lt;a href=&quot;%7B%20post_url%202013-11-26-diferencies-pop3-vs-imap%7D&quot;&gt;diferències entre POP3 i IMAP&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://help.bibtichosting.com//assets/img/posts/configurar-email-android-3.png&quot; alt=&quot;configurar-email-android-3&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2 id=&quot;toc_0&quot;&gt;Servidor de correu entrant&lt;/h2&gt;
+
+&lt;p&gt;A continuació configurem el servidor d&amp;#39;entrada:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Nom d&amp;#39;usuari&lt;/strong&gt;: ha de utilitzar el compte de correu com a usuari, per exemple &lt;code&gt;exemple@elseudomini.com&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Contrasenya&lt;/strong&gt;: ha d&amp;#39;introduir la contrasenya d&amp;#39;usuari assignat a aquest compte.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Servidor IMAP&lt;/strong&gt;: nom del servidor de recepció de correu. Haurà d&amp;#39;introduir &lt;code&gt;elseudomini.com&lt;/code&gt; tant si hs triat el tipus IMAP com POP3.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tipus de seguretat&lt;/strong&gt;: seleccionarem SSL/TLS per usar un protocol encriptat a l&amp;#39;hora de rebre emails.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Un cop introduits els camps premi &lt;kbd&gt;Sëgüent&lt;/kbd&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://help.bibtichosting.com//assets/img/posts/configurar-email-android-4.png&quot; alt=&quot;configurar-email-android-4&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2 id=&quot;toc_1&quot;&gt;Servidor de correu sortint&lt;/h2&gt;
+
+&lt;p&gt;El pas següent és la configuració del servidor d&amp;#39;enviament SMTP:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Servidor SMTP&lt;/strong&gt;: nom del servidor d&amp;#39;enviament de correu. Haurà d&amp;#39;introduir &lt;code&gt;elseudomini.com&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tipus de seguretat&lt;/strong&gt;: seleccionarem SSL/TLS per usar un protocol encriptat en l&amp;#39;enviament.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Requereix l&amp;#39;inici de sessió&lt;/strong&gt;: la casella ha d&amp;#39;estar marcada.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nom d&amp;#39;usuari&lt;/strong&gt;: ha de utilitzar el compte de correu com a usuari, per exemple &lt;code&gt;exemple@elseudomini.com&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Contrasenya&lt;/strong&gt;: ha d&amp;#39;introduir la contrasenya d&amp;#39;usuari assignat a aquest compte.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Un cop introduits els camps premi &lt;kbd&gt;Sëgüent&lt;/kbd&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://help.bibtichosting.com//assets/img/posts/configurar-email-android-5.png&quot; alt=&quot;configurar-email-android-5&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Esperi a que es configuri el compte.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://help.bibtichosting.com//assets/img/posts/configurar-email-android-6.png&quot; alt=&quot;configurar-email-android-6&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Si hi ha cap error, revisi que les dades indicades siguin correctes i corresponguin al compte que està configurant.&lt;/p&gt;
+
+&lt;p&gt;Si tot és correcte podrà configurar les següents opcions que poden variar segons les seves preferències.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://help.bibtichosting.com//assets/img/posts/configurar-email-android-7.png&quot; alt=&quot;configurar-email-android-7&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Finalment, pot indicar el nom que vol que apareixi al enviar els correus.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://help.bibtichosting.com//assets/img/posts/configurar-email-android-8.png&quot; alt=&quot;configurar-email-android-8&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Ja ha finalitzat la configuració del compte de correu!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://help.bibtichosting.com//assets/img/posts/configurar-email-android-9.png&quot; alt=&quot;configurar-email-android-9&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Configurar email a Windows 7 Live Mail</title>
+		<link href="/configurar-email-windows-7-live" />
+		<updated>2013-11-29T00:00:00+01:00</updated>
+		<id>http://help.bibtichosting.com//configurar-email-windows-7-live</id>
+		<content type="html">&lt;p&gt;&lt;small&gt;Abans de configurar el correu, assegureu-vos que està connectat a internet (comprovi la seva connexió amb un navegador web, per exemple).&lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/configurar-email-windows-7-live-1.png&quot; alt=&quot;configurar-email-windows-7-live-1&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Quan iniciem per primera vegada Windows Live Mail, ens apareixerà una finestra amb l&amp;#39;assistent per a afegir el nostre compte de correu, amb els següents camps a omplir:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Direcció de correu electrònic&lt;/strong&gt;: adreça de correu del compte que volem configurar, per exemple &lt;code&gt;exemple@elseudomini.com&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Contrasenya&lt;/strong&gt;: ha d&amp;#39;introduir la contrasenya d&amp;#39;usuari assignat a aquest compte.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ecordar aquesta contrasenya&lt;/strong&gt;: marcar la casella per que no demani la contrasenya cada cop que volem rebre correus.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nom per mostrat als missatges enviats&lt;/strong&gt;: nom que es mostra a la persona que reb el correu.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Definir manualment la configuració del servidor&lt;/strong&gt;: marcar la casella per a configurar manualment.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A continuació premem el botó &lt;kbd&gt;Siguiente&lt;/kbd&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/configurar-email-windows-7-live-2.png&quot; alt=&quot;configurar-email-windows-7-live-2&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;El següent pas es definir la configuració dels servidors, tant el de la bustia d&amp;#39;entrada com el de la bustia de sortida.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Informació del servidor de la bustia d&amp;#39;entrada&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Ha d&amp;#39;indicar el tipus de connexió que vol configurar, pot triar entre IMAP o POP3. Recomanem escollir el tipus &lt;code&gt;IMAP&lt;/code&gt;. &lt;a href=&quot;%7B%20post_url%202013-11-26-diferencies-pop3-vs-imap%7D&quot;&gt;Diferències entre POP3 i IMAP&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Una vegada seleccionat el tipus de connexió, omplirem els següents camps:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Direcció del servidor&lt;/strong&gt;: nom del servidor de recepció de correu. Haurà d&amp;#39;introduir &lt;code&gt;elseudomini.com&lt;/code&gt; tant si ha triat el tipus IMAP com POP3.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Port&lt;/strong&gt;: Deixarem el que ens surt per defecte.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Requereix una connexió segura (SSL)&lt;/strong&gt;: Aquesta casella la deixem desmarcada (si la marquem ens apareixerà tota l&amp;#39;estona un avís indican que no hi ha certificat instal·lat, però ens deixarà rebre correus).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mètode d&amp;#39;autenticació&lt;/strong&gt;: Text no xifrat.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nom d&amp;#39;usuari d&amp;#39;inici de sessió&lt;/strong&gt;: ha d&amp;#39;utilitzar el compte de correu, per exemple &lt;code&gt;exemple@elseudomini.com&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Informació del servidor de la bustia de sortida&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;en aquest apartat ha d&amp;#39;indicar les dades del servidor de sortida.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Direcció del servidor&lt;/strong&gt;: Haurà d&amp;#39;introduir &lt;code&gt;elseudomini.com&lt;/code&gt;, independentment del tipus de servidor d&amp;#39;entrada que hagi sel·lecionat abans.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Port&lt;/strong&gt;: per defecte posarà el port &lt;code&gt;25&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Requereix una connexió segura (SSL):&lt;/strong&gt; Aquesta casella la deixi-la desmarcada.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Requereix autenticació&lt;/strong&gt;: ha de marcar aquesta casella, ja que si no la marca el servidor de sortida no permetrà enviar correus.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Un cop introduïts tots els camps premi &lt;kbd&gt;Siguiente&lt;/kbd&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/configurar-email-windows-7-live-3.png&quot; alt=&quot;configurar-email-windows-7-live-3&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;S&amp;#39;obrirà una finestra infirmant que el compte de correu electrònic s&amp;#39;afegit. Premem el botó &lt;kbd&gt;Finalitzar&lt;/kbd&gt; per tancar l&amp;#39;assistent de configuració.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/configurar-email-windows-7-live-4.png&quot; alt=&quot;configurar-email-windows-7-live-4&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Si teniu més dubtes de l&amp;#39;aplicació podeu consultar l&amp;#39;&lt;a href=&quot;http://windows.microsoft.com/ca-es/windows/email-communication-help&quot;&gt;Ajuda de Microsoft&lt;/a&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Configurar email a Outlook Express</title>
+		<link href="/configurar-email-outlook-express" />
+		<updated>2013-11-29T00:00:00+01:00</updated>
+		<id>http://help.bibtichosting.com//configurar-email-outlook-express</id>
+		<content type="html">&lt;p&gt;&lt;small&gt;Abans de configurar el correu, assegureu-vos que està connectat a internet (comprovi la seva connexió amb un navegador web, per exemple).&lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;Començarem obrint l&amp;#39;Outlook, s&amp;#39;obre polsant l&amp;#39;accés directe o anant a &lt;code&gt;Inicio &amp;gt; Programas &amp;gt; Outlook Express&lt;/code&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://help.bibtichosting.com//assets/img/posts/configurar-email-outlook-express-1.png&quot; alt=&quot;configurar-email-outlook-express-1&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Un cop tinguem obert l&amp;#39;Outlook, ens dirigim al menú superior i seleccionem &lt;code&gt;Herramientas &amp;gt; Cuentas&lt;/code&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://help.bibtichosting.com//assets/img/posts/configurar-email-outlook-express-2.png&quot; alt=&quot;configurar-email-outlook-express-2&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Procedim a crear un nou compte de correu, prement &lt;kbd&gt;Agregar&lt;/kbd&gt; i &lt;kbd&gt;Correo...&lt;/kbd&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://help.bibtichosting.com//assets/img/posts/configurar-email-outlook-express-3.png&quot; alt=&quot;configurar-email-outlook-express-3&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Creï un compte nou amb l&amp;#39;assistent, el primer pas és introduir-hi un &lt;strong&gt;Nom de visualització&lt;/strong&gt;, aquest nom es mostrarà als destinataris del correu.&lt;/p&gt;
+
+&lt;p&gt;Un cop introduït el nom premi &lt;kbd&gt;Siguiente &amp;gt;&lt;/kbd&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://help.bibtichosting.com//assets/img/posts/configurar-email-outlook-express-4.png&quot; alt=&quot;configurar-email-outlook-express-4&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;A continuació l&amp;#39;assistent ens demana el l&amp;#39;adreça de correu, per exemple &lt;code&gt;exemple@elseudomini.com&lt;/code&gt;, després premi &lt;kbd&gt;Siguiente &amp;gt;&lt;/kbd&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://help.bibtichosting.com//assets/img/posts/configurar-email-outlook-express-5.png&quot; alt=&quot;configurar-email-outlook-express-5&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Al següent punt configurem el &lt;strong&gt;servidor de sortida i sortida&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tipus de servidor de correu entrant&lt;/strong&gt;:  recomanem seleccionar &lt;code&gt;IMAP&lt;/code&gt;. &lt;a href=&quot;/diferencies-pop3-vs-imap&quot;&gt;Diferències entre POP3 i IMAP&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Servidor de correu entrant&lt;/strong&gt;: nom del servidor de recepció de correu. Haurà d&amp;#39;introduir &lt;code&gt;elseudomini.com&lt;/code&gt; tant si ha triat el tipus &lt;em&gt;IMAP&lt;/em&gt; com &lt;em&gt;POP3&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Servidor de correu sortint (SMTP)&lt;/strong&gt;: Haurà d&amp;#39;introduir &lt;code&gt;elseudomini.com&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Un cop introduïdes les dades premi &lt;kbd&gt;Siguiente &amp;gt;&lt;/kbd&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://help.bibtichosting.com//assets/img/posts/configurar-email-outlook-express-6.png&quot; alt=&quot;configurar-email-outlook-express-6&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Ara ha arribat el moment de configurar les dades del correu:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Nom de compte&lt;/strong&gt;: ha de utilitzar el compte de correu, per exemple &lt;code&gt;exemple@elseudomini.com&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Contrasenya&lt;/strong&gt;: ha d&amp;#39;introduir la contrasenya d&amp;#39;usuari assignat a aquest compte.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Recordar contrasenya&lt;/strong&gt;: marqui la casella per que no demani la contrasenya cada cop que volem rebre/enviar correus.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Iniciar sessió usant autenticació de contraseña segura (SPA)&lt;/strong&gt;: marqui la casella si vol usar encriptació a l&amp;#39;hora d&amp;#39;enviar i rebre emails&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Un cop introduïdes les dades premi &lt;kbd&gt;Siguiente &amp;gt;&lt;/kbd&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://help.bibtichosting.com//assets/img/posts/configurar-email-outlook-express-7.png&quot; alt=&quot;configurar-email-outlook-express-7&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Finalitzem la creació del compte de correu electrònic, prement el botó &lt;kbd&gt;Finalizar&lt;/kbd&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://help.bibtichosting.com//assets/img/posts/configurar-email-outlook-express-8.png&quot; alt=&quot;configurar-email-outlook-express-8&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Pot comprovar com s&amp;#39;ha agregat satisfactòriament el compte de correu a la llista de comptes.&lt;/p&gt;
+
+&lt;p&gt;Ha de configurar el compte per poder enviar correu satisfactòriament, per fer-ho polsarem dues vegades seguides sobre el nom del compte &lt;code&gt;elseudomini.com&lt;/code&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://help.bibtichosting.com//assets/img/posts/configurar-email-outlook-express-9.png&quot; alt=&quot;configurar-email-outlook-express-9&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;S&amp;#39;obrirà una nova finestra. A la pestanya de General és on configurem el nom del compte i l&amp;#39;adreça de correu electrònic, però haurà d&amp;#39;anar a la pestanya &lt;code&gt;Servidors&lt;/code&gt; per configurar-lo:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://help.bibtichosting.com//assets/img/posts/configurar-email-outlook-express-10.png&quot; alt=&quot;configurar-email-outlook-express-10&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Un cop a la pestanya &lt;code&gt;Servidors&lt;/code&gt;, &lt;strong&gt;marqui&lt;/strong&gt; la casella &lt;code&gt;Mi servidor requiere autenticación&lt;/code&gt; i després premi &lt;kbd&gt;Configuración...&lt;/kbd&gt;.&lt;/p&gt;
+
+&lt;p&gt;A la nova finestra que s&amp;#39;obre, &lt;strong&gt;marqui&lt;/strong&gt; la casella &lt;code&gt;Usar misma configuración que el servidor entrante&lt;/code&gt; i després premi &lt;kbd&gt;Aceptar&lt;/kbd&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://help.bibtichosting.com//assets/img/posts/configurar-email-outlook-express-11.png&quot; alt=&quot;configurar-email-outlook-express-11&quot;&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;toc_0&quot;&gt;&lt;/h2&gt;
+
+&lt;p&gt;Ja té l&amp;#39;Outlook configurat!&lt;/p&gt;
+
+&lt;p&gt;Si teniu més dubtes de l&amp;#39;aplicació podeu consultar l&amp;#39;&lt;a href=&quot;http://support.microsoft.com/kb/2409264/es&quot;&gt;Ajuda de Microsoft&lt;/a&gt;.&lt;/p&gt;
 </content>
 	</entry>
 	
@@ -69,31 +445,10 @@
 		<title>Diferències entre POP3 i IMAP</title>
 		<link href="/diferencies-pop3-vs-imap" />
 		<updated>2013-11-26T00:00:00+01:00</updated>
-		<id>http://toddmotto.com/diferencies-pop3-vs-imap</id>
-		<content type="html">&lt;p&gt;Normalment, la gent té per costum utilitzar el protocol POP3 per consultar el seu correu. IMAP realitza la mateixa funció però és més eficient, més ràpid i no satura el servidor de correu. Un altre avantatge és que vostè disposarà d&#39;una còpia dels seus correus al servidor i podrà consultar-los alternativament des del servei webmail.&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>Configuració Email i accés al Webmail</title>
-		<link href="/configuracio-email-acces-webmail" />
-		<updated>2013-11-26T00:00:00+01:00</updated>
-		<id>http://toddmotto.com/configuracio-email-acces-webmail</id>
-		<content type="html">&lt;h3&gt;Configuració Email&lt;/h3&gt;
+		<id>http://help.bibtichosting.com//diferencies-pop3-vs-imap</id>
+		<content type="html">&lt;p&gt;Normalment, la gent té per costum utilitzar el protocol POP3 per consultar el seu correu. IMAP realitza la mateixa funció però és més eficient, més ràpid i no satura el servidor de correu. Un altre avantatge és que vostè disposarà d&amp;#39;una còpia dels seus correus al servidor i podrà consultar-los alternativament des del servei webmail.&lt;/p&gt;
 
-&lt;p&gt;Configura la bústia de correu amb les següents dades a qualsevol client de correu (Mail, Microsoft Outlook, &lt;a href=&quot;/configurar-email-thunderbird&quot;&gt;Thunderbird&lt;/a&gt;) :&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Usuari&lt;/strong&gt;: &lt;code&gt;exemple@elseudomini.com&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Servidor de correu sortint (SMTP)&lt;/strong&gt;: &lt;code&gt;elseudomini.com&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Servidor de correu entrant (POP/IMAP/IMAP SSL)&lt;/strong&gt;: &lt;code&gt;elseudomini.com&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Contrasenya&lt;/strong&gt;: &lt;code&gt;*******&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;h3&gt;Accés al WebMail&lt;/h3&gt;
-
-&lt;p&gt;Per accedir a la bústia desde una interfície web, només has de visitar la següent URL: `http://webmail.elseudomini.com&#39; , inicia la sessió amb l&#39;adreça de correu i contrasenya.&lt;/p&gt;
+&lt;p&gt;+info a &lt;a href=&quot;http://help.outlook.com/ca-es/140/cc511383.aspx&quot;&gt;Ús de programes de correu electrònic POP3 i IMAP4&lt;/a&gt;&lt;/p&gt;
 </content>
 	</entry>
 	

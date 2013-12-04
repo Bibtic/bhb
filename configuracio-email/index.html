@@ -2,7 +2,7 @@
 <html lang="ca">
   <head>
     <meta charset="utf-8">
-    <title>Diferències entre POP3 i IMAP | Help!Bibtic Hosting</title>
+    <title>Configuració Email | Help!Bibtic Hosting</title>
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Ajuda per a l'allotjament de pàgines web i servidor web">
@@ -184,10 +184,81 @@
       <!-- main -->
       <main class="main" role="main">
             <article class="main__content full-post">
-      <h1 class="full-post__title">Diferències entre POP3 i IMAP</h1>
-      <p>Normalment, la gent té per costum utilitzar el protocol POP3 per consultar el seu correu. IMAP realitza la mateixa funció però és més eficient, més ràpid i no satura el servidor de correu. Un altre avantatge és que vostè disposarà d&#39;una còpia dels seus correus al servidor i podrà consultar-los alternativament des del servei webmail.</p>
+      <h1 class="full-post__title">Configuració Email</h1>
+      <p>Configura la bústia de correu amb les següents dades a qualsevol client de correu (<a href="/configurar-email-mac">Mail</a>, Microsoft Outlook, <a href="/configurar-email-thunderbird">Thunderbird</a>) :</p>
 
-<p>+info a <a href="http://help.outlook.com/ca-es/140/cc511383.aspx">Ús de programes de correu electrònic POP3 i IMAP4</a></p>
+<ul>
+<li><strong>Usuari</strong>: <code>exemple@elseudomini.com</code></li>
+<li><strong>Servidor de correu sortint (SMTP)</strong>: <code>elseudomini.com</code></li>
+<li><strong>Servidor de correu entrant (POP/IMAP/IMAP SSL)</strong>: <code>elseudomini.com</code></li>
+<li><strong>Contrasenya</strong>: <code>*******</code></li>
+</ul>
+
+<h3 id="toc_0">Guies de configuració d&#39;email segons client de correu</h3>
+
+<ul>
+<li><a href="/configurar-email-android">Android</a></li>
+<li><a href="/configurar-email-mac">Mail</a></li>
+<li><a href="/configurar-email-thunderbird">Thunderbird</a></li>
+</ul>
+
+<h3 id="toc_1">Ports del servidor</h3>
+
+<p>Tots els comptes de correu electrònic dels nostres servidors, independentment del nom de domini, utilitzaran els següents valors del servidor. Per utilitzar una connexió segura, utilitzeu els ajustos marcats &quot;SSL&quot;.</p>
+
+<table><thead>
+<tr>
+<th align="left"><code>Servidor entrant</code></th>
+<th align="left">Nom del servidor</th>
+<th align="left">Port</th>
+</tr>
+</thead><tbody>
+<tr>
+<td align="left">POP3</td>
+<td align="left">elseudomini.com</td>
+<td align="left">110</td>
+</tr>
+<tr>
+<td align="left">IMAP</td>
+<td align="left">elseudomini.com</td>
+<td align="left">143</td>
+</tr>
+<tr>
+<td align="left">POP amb SSL</td>
+<td align="left">elseudomini.com</td>
+<td align="left">995</td>
+</tr>
+<tr>
+<td align="left">IMAP amb SSL</td>
+<td align="left">elseudomini.com</td>
+<td align="left">993</td>
+</tr>
+</tbody></table>
+
+<table><thead>
+<tr>
+<th align="left"><code>Servidor sortint</code></th>
+<th align="left">Nom del servidor</th>
+<th align="left">Port</th>
+</tr>
+</thead><tbody>
+<tr>
+<td align="left">SMTP</td>
+<td align="left">elseudomini.com</td>
+<td align="left">25, 587, 8025 o 2525</td>
+</tr>
+<tr>
+<td align="left">SMTP amb SSL</td>
+<td align="left">elseudomini.com</td>
+<td align="left">465</td>
+</tr>
+</tbody></table>
+
+<p><em>El <code>servidor sortint</code> requereix autenticació.</em></p>
+
+<hr>
+
+<p><a href="/diferencies-pop3-vs-imap">diferències entre POP3 i IMAP</a></p>
 
       <div class="social">
         <div class="social__button">
@@ -195,7 +266,7 @@
         </div>
         <div class="social__button">
           <div id="fb-root"></div>
-          <div class="fb-like" data-href="http://help.bibtichosting.com//diferencies-pop3-vs-imap" data-layout="button_count" data-action="like" data-width="1" data-show-faces="false" data-share="false" data-colorscheme="light"></div>
+          <div class="fb-like" data-href="http://help.bibtichosting.com//configuracio-email" data-layout="button_count" data-action="like" data-width="1" data-show-faces="false" data-share="false" data-colorscheme="light"></div>
         </div>
         <div class="social__button">
           <g:plusone size="medium"></g:plusone>
@@ -209,9 +280,9 @@
     <!--
     <script>
       
-      var disqus_url = '/diferencies-pop3-vs-imap';
+      var disqus_url = '/configuracio-email';
       
-      var disqus_title = 'Diferències entre POP3 i IMAP';
+      var disqus_title = 'Configuració Email';
       var disqus_shortname = 'bibtic';
       (function() {
         var dsq = document.createElement('script');

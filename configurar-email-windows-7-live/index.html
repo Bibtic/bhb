@@ -2,7 +2,7 @@
 <html lang="ca">
   <head>
     <meta charset="utf-8">
-    <title>Diferències entre POP3 i IMAP | Help!Bibtic Hosting</title>
+    <title>Configurar email a Windows 7 Live Mail | Help!Bibtic Hosting</title>
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Ajuda per a l'allotjament de pàgines web i servidor web">
@@ -184,10 +184,67 @@
       <!-- main -->
       <main class="main" role="main">
             <article class="main__content full-post">
-      <h1 class="full-post__title">Diferències entre POP3 i IMAP</h1>
-      <p>Normalment, la gent té per costum utilitzar el protocol POP3 per consultar el seu correu. IMAP realitza la mateixa funció però és més eficient, més ràpid i no satura el servidor de correu. Un altre avantatge és que vostè disposarà d&#39;una còpia dels seus correus al servidor i podrà consultar-los alternativament des del servei webmail.</p>
+      <h1 class="full-post__title">Configurar email a Windows 7 Live Mail</h1>
+      <p><small>Abans de configurar el correu, assegureu-vos que està connectat a internet (comprovi la seva connexió amb un navegador web, per exemple).</small></p>
 
-<p>+info a <a href="http://help.outlook.com/ca-es/140/cc511383.aspx">Ús de programes de correu electrònic POP3 i IMAP4</a></p>
+<p><img src="/assets/img/posts/configurar-email-windows-7-live-1.png" alt="configurar-email-windows-7-live-1"></p>
+
+<p>Quan iniciem per primera vegada Windows Live Mail, ens apareixerà una finestra amb l&#39;assistent per a afegir el nostre compte de correu, amb els següents camps a omplir:</p>
+
+<ul>
+<li><strong>Direcció de correu electrònic</strong>: adreça de correu del compte que volem configurar, per exemple <code>exemple@elseudomini.com</code>.</li>
+<li><strong>Contrasenya</strong>: ha d&#39;introduir la contrasenya d&#39;usuari assignat a aquest compte.</li>
+<li><strong>ecordar aquesta contrasenya</strong>: marcar la casella per que no demani la contrasenya cada cop que volem rebre correus.</li>
+<li><strong>Nom per mostrat als missatges enviats</strong>: nom que es mostra a la persona que reb el correu.</li>
+<li><strong>Definir manualment la configuració del servidor</strong>: marcar la casella per a configurar manualment.</li>
+</ul>
+
+<p>A continuació premem el botó <kbd>Siguiente</kbd></p>
+
+<p><img src="/assets/img/posts/configurar-email-windows-7-live-2.png" alt="configurar-email-windows-7-live-2"></p>
+
+<hr>
+
+<p>El següent pas es definir la configuració dels servidors, tant el de la bustia d&#39;entrada com el de la bustia de sortida.</p>
+
+<p><strong>Informació del servidor de la bustia d&#39;entrada</strong></p>
+
+<p>Ha d&#39;indicar el tipus de connexió que vol configurar, pot triar entre IMAP o POP3. Recomanem escollir el tipus <code>IMAP</code>. <a href="%7B%20post_url%202013-11-26-diferencies-pop3-vs-imap%7D">Diferències entre POP3 i IMAP</a>.</p>
+
+<p>Una vegada seleccionat el tipus de connexió, omplirem els següents camps:</p>
+
+<ul>
+<li><strong>Direcció del servidor</strong>: nom del servidor de recepció de correu. Haurà d&#39;introduir <code>elseudomini.com</code> tant si ha triat el tipus IMAP com POP3.</li>
+<li><strong>Port</strong>: Deixarem el que ens surt per defecte.</li>
+<li><strong>Requereix una connexió segura (SSL)</strong>: Aquesta casella la deixem desmarcada (si la marquem ens apareixerà tota l&#39;estona un avís indican que no hi ha certificat instal·lat, però ens deixarà rebre correus).</li>
+<li><strong>Mètode d&#39;autenticació</strong>: Text no xifrat.</li>
+<li><strong>Nom d&#39;usuari d&#39;inici de sessió</strong>: ha d&#39;utilitzar el compte de correu, per exemple <code>exemple@elseudomini.com</code></li>
+</ul>
+
+<p><strong>Informació del servidor de la bustia de sortida</strong></p>
+
+<p>en aquest apartat ha d&#39;indicar les dades del servidor de sortida.</p>
+
+<ul>
+<li><strong>Direcció del servidor</strong>: Haurà d&#39;introduir <code>elseudomini.com</code>, independentment del tipus de servidor d&#39;entrada que hagi sel·lecionat abans.</li>
+<li><strong>Port</strong>: per defecte posarà el port <code>25</code>.</li>
+<li><strong>Requereix una connexió segura (SSL):</strong> Aquesta casella la deixi-la desmarcada.</li>
+<li><strong>Requereix autenticació</strong>: ha de marcar aquesta casella, ja que si no la marca el servidor de sortida no permetrà enviar correus.</li>
+</ul>
+
+<p>Un cop introduïts tots els camps premi <kbd>Siguiente</kbd></p>
+
+<p><img src="/assets/img/posts/configurar-email-windows-7-live-3.png" alt="configurar-email-windows-7-live-3"></p>
+
+<hr>
+
+<p>S&#39;obrirà una finestra infirmant que el compte de correu electrònic s&#39;afegit. Premem el botó <kbd>Finalitzar</kbd> per tancar l&#39;assistent de configuració.</p>
+
+<p><img src="/assets/img/posts/configurar-email-windows-7-live-4.png" alt="configurar-email-windows-7-live-4"></p>
+
+<hr>
+
+<p>Si teniu més dubtes de l&#39;aplicació podeu consultar l&#39;<a href="http://windows.microsoft.com/ca-es/windows/email-communication-help">Ajuda de Microsoft</a></p>
 
       <div class="social">
         <div class="social__button">
@@ -195,7 +252,7 @@
         </div>
         <div class="social__button">
           <div id="fb-root"></div>
-          <div class="fb-like" data-href="http://help.bibtichosting.com//diferencies-pop3-vs-imap" data-layout="button_count" data-action="like" data-width="1" data-show-faces="false" data-share="false" data-colorscheme="light"></div>
+          <div class="fb-like" data-href="http://help.bibtichosting.com//configurar-email-windows-7-live" data-layout="button_count" data-action="like" data-width="1" data-show-faces="false" data-share="false" data-colorscheme="light"></div>
         </div>
         <div class="social__button">
           <g:plusone size="medium"></g:plusone>
@@ -209,9 +266,9 @@
     <!--
     <script>
       
-      var disqus_url = '/diferencies-pop3-vs-imap';
+      var disqus_url = '/configurar-email-windows-7-live';
       
-      var disqus_title = 'Diferències entre POP3 i IMAP';
+      var disqus_title = 'Configurar email a Windows 7 Live Mail';
       var disqus_shortname = 'bibtic';
       (function() {
         var dsq = document.createElement('script');
