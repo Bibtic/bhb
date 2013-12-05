@@ -20,7 +20,7 @@
     <meta property="og:url" content="http://help.bibtichosting.com/index.html"/>
     <meta property="og:title" content="Help Center"/>
     <meta property="og:image" content="http://help.bibtichosting.com/assets/img/logo-bibtichosting.png"/>
-    <meta property="og:description" content=""/>
+    <meta property="og:description" content="{% for post in paginator.posts %} {{ post.title }} {% endfor %} {% if paginator.previous_page %} {% if paginator.previous_page ==..."/>
     <!-- /end Fb -->
     <!--
     <script src="js/conditionizr.js"></script>
